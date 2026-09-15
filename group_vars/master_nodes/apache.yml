@@ -14,3 +14,8 @@ apache_vhosts:
       </Directory>
 
 apache_remove_default_vhost: true
+
+apache_mods_enabled:
+    - rewrite
+    - proxy
+    - proxy_fcgi
