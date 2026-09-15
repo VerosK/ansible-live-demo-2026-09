@@ -9,5 +9,8 @@
   get_url:
     url: '{{ adminer_source_url }}'
     dest: /opt/adminer-{{ adminer_version }}/index.php
+    owner: root
+    group: www-data
+    mode: '0644'
 
 
