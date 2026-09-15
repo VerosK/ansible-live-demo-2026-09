@@ -1,0 +1,2 @@
+# ignore role managed by ansible-galaxy
+roles/geerlingguy.*
