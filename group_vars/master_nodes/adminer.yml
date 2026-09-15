@@ -1,0 +1,6 @@
+# group_vars/master_nodes/adminer.yml
+
+adminer_version: "6.0.0"
+
+adminer_source_checksum:
+  'sha256:0000000000000000000000000000000000000000000000000000000000000000'
