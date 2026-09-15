@@ -1,0 +1,15 @@
+# group_vars/master_nodes/postgresql.yml
+
+postgresql_users:
+  - name: demo
+    password: demo123
+    state: present
+  - name: another
+    password: another-very-secure-password
+    state: present
+
+postgresql_databases:
+  - name: demo
+    owner: demo
+    state: present
+    encoding: UTF-8
