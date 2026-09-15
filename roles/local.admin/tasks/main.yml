@@ -1,0 +1,13 @@
+# local.adminer/tasks/main.yml
+
+- name: Create adminer dir
+  file:
+    path: /opt/adminer-{{ adminer_version }}
+    state: directory
+
+- name: Get adminer script
+  get_url:
+    url: '{{ adminer_source_url }}'
+    dest: /opt/adminer-{{ adminer_version }}/index.php
+
+

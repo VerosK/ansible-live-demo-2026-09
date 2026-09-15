@@ -1,0 +1,5 @@
+# local.adminer/defaults/main.yml
+
+adminer_version: "6.1.0"
+adminer_source_url:
+  https://github.com/vrana/adminer/releases/download/v{{ adminer_version }}/adminer-{{ adminer_version }}.php'

@@ -9,3 +9,5 @@
       tags: apache
     - name: geerlingguy.php
       tags: php
+    - name: local.adminer
+      tags: adminer
