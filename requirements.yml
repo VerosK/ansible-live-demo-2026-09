@@ -6,3 +6,10 @@
 roles:
   - name: geerlingguy.postgresql
     version: 4.1.0
+  - name: geerlingguy.apache
+    version: 4.2.1
+    src: git+https://github.com/geerlingguy/ansible-role-apache
+    # see https://github.com/geerlingguy/ansible-role-apache for tags
+  - name: geerlingguy.php
+    version: 6.1.0
+    src: git+https://github.com/geerlingguy/ansible-role-php
