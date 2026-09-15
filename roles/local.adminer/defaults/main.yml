@@ -3,3 +3,6 @@
 adminer_version: "6.1.0"
 adminer_source_url:
   https://github.com/vrana/adminer/releases/download/v{{ adminer_version }}/adminer-{{ adminer_version }}.php
+
+adminer_source_checksum:
+  'sha256:95bf24b510b41904446f720f4f1212c9e28b1d523f3df44259480d7a12ea181e'

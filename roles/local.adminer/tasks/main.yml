@@ -12,5 +12,6 @@
     owner: root
     group: www-data
     mode: '0644'
+    checksum: '{{ adminer_source_checksum }}'
 
 
