@@ -4,3 +4,5 @@ adminer_version: "6.0.0"
 
 adminer_source_checksum:
   'sha256:8181c9be10f290243724acb0e4dc930fe04440a343fb11dcc8ddb9821095e274'
+
+adminer_dir: /opt/adminer-{{ adminer_version }}
