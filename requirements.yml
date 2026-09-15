@@ -1,0 +1,8 @@
+# requirements.yml
+
+# This file is used to define the Ansible roles that are required for your playbooks.
+# You can specify the name and version of each role you want to include in your project.
+
+roles:
+  - name: geerlingguy.postgresql
+    version: 4.1.0
